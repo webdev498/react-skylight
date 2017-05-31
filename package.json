@@ -65,14 +65,17 @@
     "phantomjs-prebuilt": "^2.1.7",
     "react": "^15.0.1",
     "react-addons-test-utils": "^15.0.1 || ^0.14.0",
-    "babel-cli": "^6.3.17"
+    "babel-cli": "^6.3.17",
+    "babel-plugin-transform-es2015-modules-umd": "^6.3.17"
   },
   "babel": {
     "presets": [
       "react",
       "stage-0"
     ],
-    "plugins": []
+    "plugins": [
+      "transform-es2015-modules-umd"
+    ]
   },
   "dependencies": {
     "prop-types": "^15.5.10"
